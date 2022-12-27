@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "../styles/Home.module.css";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-evenly bg-[#1A0B2E] p-6">
+    <div className={`${styles.navBar} flex items-center justify-evenly p-6`}>
       <div className="logo">
         <h1>E</h1>
       </div>

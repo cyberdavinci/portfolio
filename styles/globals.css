@@ -1,7 +1,10 @@
 body {
-  background-color: #11071f;
+  background-color: #000000fa;
   color: #fff;
+
+  /* margin: auto; */
 }
+
 .nav-items {
   cursor: pointer;
 }

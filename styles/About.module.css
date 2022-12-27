@@ -1,4 +1,4 @@
-.container {
+/* .container {
   color: #e5e5e5;
   font-size: 2.26rem;
   text-transform: uppercase;
@@ -66,4 +66,14 @@
   100% {
     margin-top: 0;
   }
+} */
+
+.meAvatar {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #ac3c4b 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+  /* padding-top: 10px; */
+  border-radius: 50%;
 }
