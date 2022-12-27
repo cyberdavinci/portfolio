@@ -2,11 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 // import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
-// import WorkExperience from "../components/Projects";
-// const inter = Inter({ subsets: ["latin"] });
+import Skills from "../components/Skills";
 
 export default function Home() {
   return (
@@ -21,6 +20,7 @@ export default function Home() {
         {/* <Navbar /> */}
         <About />
         <Projects />
+        <Skills />
       </main>
     </>
   );

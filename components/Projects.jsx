@@ -4,10 +4,10 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <div
-      className={`${styles.workContainer} w-full md:flex-none flex flex-col items-center`}
+      className={`${styles.workContainer} w-full md:flex-none flex flex-col mb-10`}
     >
       <div className="">
-        <h2 className="text-4xl md:mx-[15%]">Projects</h2>
+        <h1 className="text-4xl md:mx-[15%]">Projects</h1>
       </div>
       <div
         className={`${styles.cardsContainer} mt-10 md:mx-[15%] grid gap-5 md:grid-cols-[repeat(2,2fr)] `}
@@ -21,7 +21,7 @@ const Projects = () => {
             <Image
               src={"/p1.jpg"}
               // fill
-              width={400}
+              width={500}
               height={300}
               className="rounded-lg"
             />
@@ -49,7 +49,7 @@ const Projects = () => {
             <Image
               src={"/p1.jpg"}
               // fill
-              width={400}
+              width={500}
               height={300}
               className="rounded-lg"
             />
