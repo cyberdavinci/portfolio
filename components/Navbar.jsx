@@ -10,8 +10,9 @@ const Navbar = () => {
       <div className="nav-items">
         <ul className="flex justify-evenly items-center gap-16 group ">
           <li>Home</li>
-          <li>About</li>
+          {/* <li>About</li> */}
           <li>Lab</li>
+          <li>Skills</li>
         </ul>
       </div>
     </div>

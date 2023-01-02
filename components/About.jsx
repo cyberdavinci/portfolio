@@ -4,7 +4,9 @@ import styles from "../styles/About.module.css";
 const About = () => {
   return (
     <div className="">
-      <div className="me w-full relative flex justify-center items-center flex-wrap flex-col md:flex-row p-8">
+      <div
+        className={`me w-full relative flex justify-center items-center flex-wrap flex-col md:flex-row p-4`}
+      >
         <div className={`${styles.meAvatar} mt-[5rem]`}>
           <Image
             src={"/me.png"}
@@ -27,22 +29,25 @@ const About = () => {
             height={100}
             className={"text-blue-200 md:block hidden"}
           />
-          <div className="container mt-8">
+          <div className={`${styles.container} mt-8`}>
             <p>
               a tech <span>enthusiast </span> interested in
             </p>
-            <div className="my-text-animation mt-4 text-lg font-semibold">
+            <div
+              className={`${styles.myTextAnimation} mt-4 text-lg font-semibold`}
+            >
               <div className="">
-                <p>Artificial Intellenge</p>
+                <p>Artificial Intellegence</p>
               </div>
               <div className="">
                 <p>Ethical Hacking</p>
               </div>
               <div className="">
-                <p>Software Engineering</p>
+                <p className=" ">Software Engineering</p>
+                {/* <p>Engineering</p> */}
               </div>
               <div className="">
-                <p>Robotics Engineering</p>
+                <p>Robotics</p>
               </div>
               <div className="">
                 <p>Data Science</p>

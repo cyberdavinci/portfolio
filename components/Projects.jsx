@@ -3,17 +3,17 @@ import styles from "../styles/Projects.module.css";
 import Image from "next/image";
 const Projects = () => {
   return (
-    <div
-      className={`${styles.workContainer} w-full md:flex-none flex flex-col mb-10`}
-    >
+    <div className={`${styles.workContainer} w-full mb-10 `}>
       <div className="">
-        <h1 className="text-4xl md:mx-[15%]">Projects</h1>
+        <h1 className="text-4xl md:mx-[15%] uppercase text-[#db5959] font-semibold">
+          Projects
+        </h1>
       </div>
       <div
-        className={`${styles.cardsContainer} mt-10 md:mx-[15%] grid gap-5 md:grid-cols-[repeat(2,2fr)] `}
+        className={`${styles.cardsContainer} mt-10 md:mx-[15%] md:grid gap-5 md:grid-cols-[repeat(2,2fr)] flex flex-col items-center `}
       >
         <div
-          className={`${styles.card} max-w-lg  rounded-lg flex flex-col items-center justify-center gap-3    flex-grow-0`}
+          className={`${styles.card}  max-w-lg  rounded-lg flex flex-col items-center justify-center gap-3    flex-grow-0`}
         >
           {/* <div className={`${styles.card2}`}></div> */}
           {/* <div className={`${styles.card2}`}> */}

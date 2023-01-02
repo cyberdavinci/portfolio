@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 // import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
-// import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={`${styles.main}`}>
-        {/* <Navbar /> */}
+        <Navbar />
         <About />
         <Projects />
         <Skills />
