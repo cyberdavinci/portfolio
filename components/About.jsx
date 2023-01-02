@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import SocialIcons from "./SocialIcons";
 import styles from "../styles/About.module.css";
 const About = () => {
   return (
@@ -7,6 +8,9 @@ const About = () => {
       <div
         className={`me w-full relative flex justify-center items-center flex-wrap flex-col md:flex-row p-4`}
       >
+        <div className="absolute top-[120px] left-0 md:left-[15%]">
+          <SocialIcons styles={styles} />
+        </div>
         <div className={`${styles.meAvatar} mt-[5rem]`}>
           <Image
             src={"/me.png"}
