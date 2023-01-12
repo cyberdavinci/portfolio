@@ -1,0 +1,18 @@
+.container ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.container ul li:hover {
+  color: brown;
+  /* padding-bottom: 0.4rem; */
+  transition: 0.3s ease;
+}
+.container ul li .icon {
+  font-size: 4rem;
+}
+.container ul li .icon:hover {
+  padding-top: 0.4rem;
+  transition: 0.3s ease;
+}
